@@ -1,3 +1,0 @@
-CompileFlags: # Tweak the parse settings, for clang server used in the code editor
-  Add:
-    - "-I=/usr/src/linux-headers-5.*-generic/"
