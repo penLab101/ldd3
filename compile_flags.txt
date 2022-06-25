@@ -1,2 +1,0 @@
--I../../linux/include
--I../../linux/arch/x86/include

@@ -1,0 +1,5 @@
+CompileFlags: # (https://clangd.llvm.org/config)
+  Add: [
+   -I/linux/include,
+   -I/linux/arch/x86/include,
+   ]

@@ -27,7 +27,16 @@ git reset --hard 4b0986a
 - [MAKE HELP](https://github.com/penLab101/linux/blob/5.18/Documentation/kbuild/kconfig.rst)
 
 ```sh
+# use the config of the current kernel
+cp /boot/config-$(uname-r) .config
 make menuconfig
+make -j$(nproc)
+make modules
+make modules_install # e.g. to /lib/modules/$(uname -r)
+make install
+# or if need manually adjustment
+# sudo update-initramfs -c -k 5.18.0
+# sudo upgrade-grub
 ```
 
 #### MAKE A MODULE
