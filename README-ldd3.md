@@ -24,6 +24,10 @@ git reset --hard 4b0986a
 
 - install the dependencies [TOOL VERSIONS, doc](https://github.com/penLab101/linux/blob/5.18/Documentation/process/changes.rst)
 
+```sh
+apt install flex bison bc openssl pahole util-linux kmod e2fsprogs jfsutils reiserfsprogs xfsprogs squashfs-tools btrfs-progs procps udev iptables nfs-common libssl-dev libelf-dev
+```
+
 - [MAKE HELP](https://github.com/penLab101/linux/blob/5.18/Documentation/kbuild/kconfig.rst)
 
 ```sh
